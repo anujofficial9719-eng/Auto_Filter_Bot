@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'dreamxbotz_search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '34724970')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'f240eae7c60e8e30c17203ab0e052f7e')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "8598500449:AAHRNlByZDFvMgcsyxDmWUucWQOHaZW3-zI")    # Bot token from @BotFather
+BOT_TOKEN = environ.get('BOT_TOKEN', "8599079444:AAFEyAwJWKPhSHD7CtthDpA_WdvPsEzd_qg")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
@@ -75,9 +75,9 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Anujofficial:Anujofficial@cluster0.ab123.mongodb.net/mydatabase?retryWrites=true&w=majority")  # MongoDB URI for the database
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") # Database name (default: cluster)
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collection name (default: dreamcinezone_files)
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")  # MongoDB URI for the database
+DATABASE_NAME = environ.get('DATABASE_NAME', "Anujedit") # Database name (default: cluster)
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anujedit') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
