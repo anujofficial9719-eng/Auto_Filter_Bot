@@ -17,7 +17,7 @@ def is_enabled(value, default):
 # ============================
 # Bot Information Configuration
 # ============================
-SESSION = environ.get('SESSION', 'dreamxbotz_search')   # Session name for the bot
+SESSION = environ.get('SESSION', 'Anujedits76_search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '34724970')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'f240eae7c60e8e30c17203ab0e052f7e')  # API Hash from my.telegram.org
 BOT_TOKEN = environ.get('BOT_TOKEN', "8599079444:AAFEyAwJWKPhSHD7CtthDpA_WdvPsEzd_qg")    # Bot token from @BotFather
@@ -180,24 +180,50 @@ SEASON_COUNT = 12
 SEASONS = [f"S{str(i).zfill(2)}" for i in range(1, SEASON_COUNT + 1)]
 
 BAD_WORDS = {
-    "PrivateMovieZ",
-    "toonworld4all",
-    "themoviesboss",
-    "1tamilmv",
-    "tamilblasters",
-    "1tamilblasters",
-    "skymovieshd",
-    "extraflix",
-    "hdm2",
-    "moviesmod",
-    "hdhub4u",
-    "mkvcinemas",
-    "primefix",
-    "join",
-    "www",
-    "villa",
-    "tg",
-    "original"
+"privatemoviez","toonworld4all","themoviesboss","1tamilmv",
+"tamilblasters","1tamilblasters","skymovieshd","extraflix",
+"hdm2","moviesmod","hdhub4u","mkvcinemas","primefix",
+"join","www","villa","tg","original",
+
+# movie sites
+"filmyzilla","filmywap","worldfree4u","9xmovies",
+"bollyflix","katmoviehd","vegamovies","desiremovies",
+"downloadhub","cinevood","moviesflix","luxmovies",
+"hubflix","movierulz","pagalworld","ssrmovies",
+"filmymeet","filmypur","hindilinks4u","mp4moviez",
+"khatrimaza","khatrimazafull","moviesda","tamilyogi",
+"isaimini","todaypk","jalshamoviez","fmovies",
+"yomovies","soap2day","123movies","putlocker",
+"rarbg","yts","yify","einthusan",
+"baiscopelk","cinevez","lookmovie","gomovies",
+"yesmovies","watchfree","openload","streamtape",
+"streamsb","doodstream","mixdrop",
+
+# OTT platforms
+"netflix","nf","amazonprime","primevideo","prime",
+"disneyplus","disney+","hotstar","jiohotstar",
+"zee5","sonyliv","voot","vootselect",
+"mxplayer","mx","aha","ahavideo",
+"altbalaji","balaji","erosnow","eros",
+"hoichoi","sunxt","sony","sonypictures",
+"lionsgateplay","lionsgate","tubitv",
+"appletv","appletvplus","apple+",
+"paramountplus","paramount+",
+"hbo","hbomax","max",
+"peacocktv","peacock",
+"rakutenviki","viki",
+"crunchyroll","funimation",
+
+# telegram words
+"telegram","channel","group","link","t.me",
+
+# quality tags
+"480p","720p","1080p","1440p","2160p","4k",
+"hdrip","webrip","bluray","brrip",
+"dvdrip","webdl","web-dl","web",
+"x264","x265","h264","h265","hevc",
+"hq","camrip","tsrip","hdcam",
+"fullhd","uhd","proper","repack"
 } # Set of bad words to filter out
    
 
@@ -217,9 +243,9 @@ FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else 
 URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else "https://{}/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
-SESSION_NAME = str(environ.get('SESSION_NAME', 'dreamXBotz'))
+SESSION_NAME = str(environ.get('SESSION_NAME', 'Anujedits76'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'DREAMXBOTZ'))
+name = str(environ.get('name', 'Anujedits76'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
