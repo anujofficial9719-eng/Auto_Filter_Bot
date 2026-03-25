@@ -72,10 +72,10 @@ class dreamcinezoneXBot(Client):
                 yield message
                 current += 1
       
-Anujedits76 = dreamcinezoneXBot()
+dreamxbotz = dreamcinezoneXBot()
 
 multi_clients = {}
 work_loads = {}
 
 if __name__ == "__main__":
-    Anujedits76.run()
+    dreamxbotz.run()
