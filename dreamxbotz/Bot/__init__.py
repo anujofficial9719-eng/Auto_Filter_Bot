@@ -72,7 +72,7 @@ class dreamcinezoneXBot(Client):
                 yield message
                 current += 1
       
-Anujedits76 = save_restricted_content_anuj_bot()
+Anujedits76 = autofilterpro_bot()
 
 multi_clients = {}
 work_loads = {}
