@@ -76,3 +76,6 @@ Anujedits76 = dreamcinezoneXBot()
 
 multi_clients = {}
 work_loads = {}
+
+if __name__ == "__main__":
+    Anujedits76.run()
