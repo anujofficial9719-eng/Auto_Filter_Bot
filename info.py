@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Anujedits76_search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '34724970')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'f240eae7c60e8e30c17203ab0e052f7e')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "8757539710:AAH9tbGMP_R7reO1iSn_1QqRRzkxDeX8C7Y")    # Bot token from @BotFather
+BOT_TOKEN = environ.get('BOT_TOKEN', "8316257309:AAE5YwqihA7JaCBo6I6sPYP6WuCNG4t-Q2w")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
